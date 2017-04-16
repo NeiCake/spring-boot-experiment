@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 $JAVA_OPTS -war target/spring-boot-experiment-0.0.1-SNAPSHOT.war
+web: java -Dserver.port=8080 $JAVA_OPTS -jar target/spring-boot-experiment-0.0.1-SNAPSHOT.jar
