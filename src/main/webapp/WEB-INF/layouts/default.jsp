@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><c:set var="contextRoot"
-		value="${pageContext.request.contextPath }" /> <tiles:insertAttribute
+		value="${pageContext.request.contextPath}" /> <tiles:insertAttribute
 		name="title" /></title>
 <!-- Bootstrap -->
 <link href="${contextRoot}/css/bootstrap.min.css" rel="stylesheet">
