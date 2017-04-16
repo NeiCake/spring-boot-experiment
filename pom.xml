@@ -96,21 +96,16 @@
 			<artifactId>tomcat-jsp-api</artifactId>
 		</dependency>
 	</dependencies>
-
+<packaging>war</packaging>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>copy-dependencies</id>
-						<phase>package</phase>
-						<goals>
-							<goal>copy-dependencies</goal>
-						</goals>
-					</execution>
-				</executions>
+				<artifactId>maven-war-plugin</artifactId>
+				
+				<configuration>
+					<warSourceExcludes>WEB-INF/lib/log4j-${log4j.version}.jar</warSourceExcludes>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>com.heroku.sdk</groupId>
