@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-experiment
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: neicake
+Start-Class: com.cake.app.App
+Implementation-Vendor-Id: com.cake
+Spring-Boot-Version: 1.3.5.RELEASE
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+
