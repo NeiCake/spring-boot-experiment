@@ -5,13 +5,13 @@
 
 
 <tiles-definitions>
-	<definition name="app.defaults" template="/WEB-INF/layouts/default.jsp">
+	<definition name="app.defaults" template="WEB-INF/layouts/default.jsp">
 		<put-attribute name="title" value="Spring Boot Demo" />
 	</definition>
 
 
 	<definition name="app.homepage" extends="app.defaults">
-		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />
+		<put-attribute name="content" value="WEB-INF/tiles/home.jsp" />
 	</definition>
 
 	<definition name="app.test" extends="app.defaults">
